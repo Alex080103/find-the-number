@@ -1,0 +1,99 @@
+html {
+  box-sizing: border-box;
+}
+
+.setting {
+  position: absolute;
+  right: 60px;
+  font-size: 70px;
+  color: rgb(5, 5, 93);
+}
+
+.test {
+  position: absolute;
+  padding: 40px;
+  background-color: rgb(5, 5, 93);
+  color: white;
+  font-size: 32px;
+  top: 230px;
+  left: 100px;
+  text-align: center;
+}
+
+form {
+  width: 50vw;
+  margin: auto;
+}
+
+form h2 {
+  padding-top: 50px;
+  font-size: 50px;
+  text-align: center;
+}
+
+label {
+  font-size: 18px;
+  text-align: left !important;
+  margin: 15px auto 5px 18vh;
+  display: block;
+}
+
+input {
+  display: block;
+  width: 500px;
+  margin: auto;
+  padding: 8px;
+}
+
+.agbalumo {
+  font-family: Agbalumo;
+}
+
+.raleway {
+  font-family: Raleway;
+}
+
+/* .relative {
+  position: relative;
+  border: 5px solid black;
+  height: 50vh;
+  width: 50vw;
+  margin: auto;
+} */
+
+.test p {
+  font-size: 20px;
+}
+
+.button {
+  display: block;
+  background-color: rgb(223, 222, 222);
+  width: 500px;
+  margin: auto;
+  margin-top: 15px;
+  padding: 5px 0;
+  font-size: 16px;
+  /* padding-block: 0 !important; */
+  /* padding-inline: -1px !important; */
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.button:active {
+  color: black;
+}
+
+/* .button:hover {
+  transform: scale(1.5);
+  transition: all 1s;
+} */
+.blue {
+  background-color: rgb(5, 5, 93);
+  border: 2px rgb(5, 5, 93) solid;
+  color: antiquewhite;
+}
+/* body {
+  height: 500vh;
+} */
